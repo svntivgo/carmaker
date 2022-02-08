@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Car Maker</title>
+</head>
+
+<body>
+    <h1>CAR MAKER</h1>
+    <h3>¡Crea tu propio carro!</h3>
+    <div class="menu-container">
+        <div class="color-1-container">
+            <h3>Elige el color principal</h3>
+            <input type="radio" name="color-1" id="color-1-rojo" value="rojo">
+            <label for="color-1-rojo">Rojo</label>
+            <input type="radio" name="color-1" id="color-1-Azul" value="azul">
+            <label for="color-1-Azul">Azul</label>
+            <input type="radio" name="color-1" id="color-1-Verde" value="verde">
+            <label for="color-1-Verde">Verde</label>
+            <input type="radio" name="color-1" id="color-1-amarillo" value="amarillo">
+            <label for="color-1-amarillo">Amarillo</label>
+        </div>
+
+        <div class="color-2-container">
+            <h3>Elige el color secundario</h3>
+            <input type="radio" name="color-2" id="color-2-rojo" value="rojo">
+            <label for="color-2-rojo">Rojo</label>
+            <input type="radio" name="color-2" id="color-2-Azul" value="azul">
+            <label for="color-2-Azul">Azul</label>
+            <input type="radio" name="color-2" id="color-2-Verde" value="verde">
+            <label for="color-2-Verde">Verde</label>
+            <input type="radio" name="color-2" id="color-2-amarillo" value="amarillo">
+            <label for="color-2-amarillo">Amarillo</label>
+        </div>
+        <input type="button" value="Enviar" id="boton">
+    </div>
+    <div class="carro-container" id="carro-container">
+        <div class="techo" id="techo"></div>
+        <div class="cuerpo" id="cuerpo"></div>
+        <div class="rueda uno" id="rueda1"></div>
+        <div class="rueda dos" id="rueda2"></div>
+    </div>
+</body>
+
+</html>
